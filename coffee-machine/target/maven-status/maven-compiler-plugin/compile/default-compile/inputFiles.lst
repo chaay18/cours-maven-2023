@@ -1,0 +1,15 @@
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/machine/EspressoCoffeeMachine.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/machine/component/CoffeeGrinder.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/MainCoffee.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/machine/component/ElectricalResistance.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/machine/exception/CannotMakeCremaWithSimpleCoffeeMachine.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/MainEspresso.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/machine/component/Tank.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/machine/component/WaterPump.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/machine/component/BeanTank.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/machine/component/SteamPipe.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/machine/exception/MachineNotPluggedException.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/machine/exception/CoffeeTypeCupDifferentOfCoffeeTypeTankException.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/machine/exception/LackOfWaterInTankException.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/machine/component/WaterTank.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/main/java/fr/imt/coffee/machine/CoffeeMachine.java
