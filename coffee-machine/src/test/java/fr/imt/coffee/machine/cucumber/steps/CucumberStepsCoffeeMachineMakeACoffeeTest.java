@@ -1,6 +1,7 @@
 package fr.imt.coffee.machine.cucumber.steps;
 
 import fr.imt.coffee.machine.CoffeeMachine;
+import fr.imt.coffee.machine.EspressoCoffeeMachine;
 import fr.imt.coffee.machine.exception.CannotMakeCremaWithSimpleCoffeeMachine;
 import fr.imt.coffee.machine.exception.CoffeeTypeCupDifferentOfCoffeeTypeTankException;
 import fr.imt.coffee.machine.exception.LackOfWaterInTankException;
@@ -93,6 +94,16 @@ public class CucumberStepsCoffeeMachineMakeACoffeeTest {
             assertThat(containerWithCoffee, instanceOf(CoffeeCup.class));
 
         assertThat(containerWithCoffee.getCoffeeType(), is(CoffeeType.valueOf(coffeeType)));
+    }
+
+    @Then("the coffee machine is powered on")
+    public void theCoffeeMachineIsPoweredOn() {
+        Assertions.assertTrue(coffeeMachine.isPlugged());
+    }
+
+    @Given("an espresso machine with {double} l of min capacity, {double} l of max capacity, {double} l per h of water flow for the pump")
+    public void anEspressoMachineWithLOfMinCapacityLOfMaxCapacityLPerHOfWaterFlowForThePump(double minimalWaterCapacity, double maximalWaterCapacity, double pumpWaterFlow) {
+        coffeeMachine = new EspressoCoffeeMachine(minimalWaterCapacity, maximalWaterCapacity, minimalWaterCapacity, maximalWaterCapacity, pumpWaterFlow);
     }
 
 
