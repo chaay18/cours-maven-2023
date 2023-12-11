@@ -3,6 +3,7 @@ package fr.imt.coffee.machine;
 import fr.imt.coffee.cupboard.coffee.type.CoffeeType;
 import fr.imt.coffee.cupboard.container.Cup;
 import fr.imt.coffee.cupboard.exception.CupNotEmptyException;
+import fr.imt.coffee.machine.exception.MachineNotPluggedException;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -116,7 +117,7 @@ public class CoffeeMachineUnitTest {
         //AssertThrows va permettre de venir tester la levée d'une exception, ici lorsque que le contenant passé en
         //paramètre n'est pas vide
         //On teste à la fois le type d'exception levée mais aussi le message de l'exception
-        Assertions.assertThrows(CupNotEmptyException.class, ()->{
+        Assertions.assertThrows(MachineNotPluggedException.class, ()->{
                 coffeeMachineUnderTest.makeACoffee(mockCup, CoffeeType.MOKA);
             });
     }
