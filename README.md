@@ -1,6 +1,6 @@
 
 
-## *****BUILD SUCCEEDED***** 
+## *****BUILD SUCCESS***** 
 
 ## Unit tests OK ✅
 
