@@ -2,4 +2,5 @@
 /Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/test/java/fr/imt/coffee/machine/cucumber/steps/CucumberStepsCoffeeMachineMakeACoffeeTest.java
 /Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/test/java/fr/imt/coffee/machine/CoffeeMachineCucumberFunctionalTest.java
 /Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/test/java/fr/imt/coffee/machine/component/ElectricalResistanceTest.java
+/Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/test/java/fr/imt/coffee/machine/component/BeanTankTest.java
 /Users/chaimaemoumni/imt/s9/tp-maven-final/cours-maven-2023/coffee-machine/src/test/java/fr/imt/coffee/machine/CoffeeMachineUnitTest.java
